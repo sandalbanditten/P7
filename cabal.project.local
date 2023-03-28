@@ -1,0 +1,7 @@
+ignore-project: False
+
+package *
+  ghc-pkg-options: --global-package-db=/usr/lib/ghc-9.0.2/static-package.conf.d
+
+program-options
+  ghc-pkg-options: --global-package-db=/usr/lib/ghc-9.0.2/static-package.conf.d
